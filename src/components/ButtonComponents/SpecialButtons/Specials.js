@@ -1,17 +1,26 @@
-import React from "react";
-
-//import any components needed
-
-//Import your array data to from the provided data file
+import React, { useState } from "react";
+import SpecialButton from './SpecialButton';
+import {specials} from '../../../data';
 
 const Specials = () => {
-  // STEP 2 - add the imported data to state
+  const [specialsArr, setSpecialsArr] = useState(specials)
 
   return (
     <div>
-      {/* STEP 3 - Use .map() to iterate over your array data and return a button
-       component matching the name on the provided file. Pass
-       it any props needed by the child component*/}
+      {specialsArr.map(special => 
+        <SpecialButton 
+        specialValue = {special}/>
+      )}
     </div>
   );
 };
+
+export default Specials;
+
+// In the other buttons I am adding more than is needed onto the arrow
+// function, I don't need the {} after =>, but will leave them for reference
+
+// line 19 is half-true, in an arrow function you only need the {}
+// if the logic is on one line
+
+// I am not so sure about line 21... I need to review ES6 stuff
