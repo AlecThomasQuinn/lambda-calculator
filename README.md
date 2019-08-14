@@ -34,10 +34,10 @@ This project was put together using create-react-app (CRA). You will not need to
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Submit a Pull-Request to merge Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master.
+- [x] Do your magic!
 
 # _Project - Lambda Calculator_
 
@@ -51,6 +51,14 @@ Follow these steps for completing your project.
 ## Directions
 
 Using the design file, build out your User Interface. Before you start, look through the app structure to see what components you have to work with, then you'll start by following the steps below.
+
+## * * * ATQ NOTES * * *
+
+Go to NumberButton.js and Numbers.js first to see the work that Brandon directed me on when we had our one on one, and the high-level understanding I had at the time
+
+THEN go to OperatorButtons.js and Operators.js to see and read my line-by-line, nuts-and-bolts commentary on what I did to construct those components
+
+Then go to SpecialButton.js and Specials.js to see a wholly completed set of components without Lambda scaffolding or my notes
 
 **STEP 1**
 
